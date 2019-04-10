@@ -5,8 +5,8 @@ permalink:           pretty
 
 # Setup
 title:               Lien's Blog
-tagline:             'A Jekyll theme'
-description:         'ReactJS, ReactNative, .NET,SQL,NoSQL,NodeJS,GraphQL'
+tagline:             ''
+description:         'Have a nice day, guys!'
 url:                 http://lanyon.getpoole.com
 baseurl:             '/blog'
 paginate:            5
