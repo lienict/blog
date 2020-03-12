@@ -1,8 +1,8 @@
 ---
 slug: 'javascript-to-know-for-react'
-title: 'JavaScript to Know for React'
-date: '2019-08-19'
-author: 'Kent C. Dodds'
+title: 'Cần chuẩn bị gì để viết React?'
+date: '2020-03-12'
+author: 'dinhtronglien'
 description:
   '_What JavaScript features you should be familiar with when learning and using
   React_'
@@ -15,11 +15,6 @@ banner: './images/banner.jpg'
 bannerCredit:
   'Photo by [Benjamin Voros](https://unsplash.com/photos/phIFdC6lA4E)'
 ---
-
-Current Available Translations:
-
-- [Türkçe](https://medium.com/p/14a6ef62bd72/)
-- [Português (do Brasil)](https://medium.com/p/f08d46476b99)
 
 One of the things I love most about React compared to other frameworks that I've
 used is how exposed you are to JavaScript when you're using it. There's no
