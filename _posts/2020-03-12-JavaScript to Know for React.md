@@ -49,7 +49,7 @@ function Box({className, ...props}) {
 
 This is so common and useful that I do this without thinking now.
 
-```jsx {11}
+{% highlight js %}
 const a = 'hello'
 const b = 42
 const c = {d: [true, false]}
@@ -63,7 +63,7 @@ function Counter({initialCount, step}) {
   const [count, setCount] = useCounter({initialCount, step})
   return <button onClick={setCount}>{count}</button>
 }
-```
+{% endhighlight %}
 
 [MDN: Object initializer _New notations in ECMAScript 2015_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#New_notations_in_ECMAScript_2015)
 
@@ -75,7 +75,7 @@ worry about `this` as much if we're using hooks in our project (rather than
 classes), but the arrow function allows for terser anonymous functions and
 implicit returns, so you'll see and want to use arrow functions plenty.
 
-```jsx {20-24}
+{% highlight js %}
 const getFive = () => 5
 const addFive = a => a + 5
 const divide = (a, b) => a / b
@@ -103,7 +103,7 @@ function TeddyBearList({teddyBears}) {
     </ul>
   )
 }
-```
+{% endhighlight %}
 
 > One thing to note about the example above is the opening and closing
 > parentheses `(`. This is a common way to leverage the arrow function's
@@ -118,7 +118,7 @@ and arrays all the time (and if you're using `useState` you probably are too,
 [like so](/blog/react-hooks-array-destructuring-fundamentals)). I love how
 declarative it is.
 
-```jsx {23}
+{% highlight js %}
 // const obj = {x: 3.6, y: 7.8}
 // makeCalculation(obj)
 
@@ -144,14 +144,14 @@ function makeCalculation(obj) {
 function UserGitHubImg({username = 'ghost', ...props}) {
   return <img src={`https://github.com/${username}.png`} {...props} />
 }
-```
+{% endhighlight %}
 
 [MDN: Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
 > Definitely read that MDN article. You are certain to learn something new. When
 > you're done, try to refactor this to use a single line of destructuring:
 
-```javascript
+{% highlight js %}
 function nestedArrayAndObject() {
   // refactor this to a single line of destructuring...
   const info = {
@@ -174,14 +174,14 @@ function nestedArrayAndObject() {
   const enemyName = enemy.name
   return `${enemyName} (${enemyTitle}) is an enemy to ${protagonistName} in "${title}"`
 }
-```
+{% endhighlight %}
 
 ## Parameter defaults
 
 This is another feature I use all the time. It's a really powerful way to
 declaratively express default values for your functions.
 
-```jsx {20-21}
+{% highlight js %}
 // add(1)
 // add(1, 2)
 function add(a, b = 0) {
@@ -215,7 +215,7 @@ function useLocalStorageState({
 
   return [state, setState]
 }
-```
+{% endhighlight %}
 
 [MDN: Default parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 
@@ -226,7 +226,7 @@ operates on a collection of values. I use it all the time and strongly recommend
 you learn how and where it can be used as well. It actually takes different
 meanings in different contexts, so learning the nuances there will help you.
 
-```jsx {43}
+{% highlight js %}
 const arr = [5, 6, 8, 4, 9]
 Math.max(...arr)
 // is the same as
@@ -271,7 +271,7 @@ function Box({className, ...restOfTheProps}) {
   }
   return <div {...defaultProps} {...restOfTheProps} />
 }
-```
+{% endhighlight %}
 
 [MDN: Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
@@ -284,7 +284,7 @@ it's a good idea to learn how the syntax works because any application of even
 trivial size will likely need to make use of modules for code reuse and
 organization.
 
-```javascript {30}
+{% highlight js %}
 export default function add(a, b) {
   return a + b
 }
@@ -315,7 +315,7 @@ export const now = new Date()
 
 // in React:
 import React, {Suspense, Fragment} from 'react'
-```
+{% endhighlight %}
 
 [MDN: import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
@@ -328,7 +328,7 @@ import React, {Suspense, Fragment} from 'react'
 
 I love ternaries. They're beautifully declarative. Especially in JSX.
 
-```jsx {17-27}
+{% highlight js %}
 const message = bottle.fullOfSoda
   ? 'The bottle has soda!'
   : 'The bottle may not have soda :-('
@@ -359,7 +359,7 @@ function TeddyBearList({teddyBears}) {
     </React.Fragment>
   )
 }
-```
+{% endhighlight %}
 
 > I realize that ternaries can get a knee-jerk reaction of disgust from some
 > people who had to endure trying to make sense of ternaries before
@@ -384,7 +384,7 @@ following methods the most frequently:
 
 Here are some examples:
 
-```jsx {64-68}
+{% highlight js %}
 const dogs = [
   {
     id: 'dog-1',
@@ -456,7 +456,7 @@ function RepositoryList({repositories, owner}) {
     </ul>
   )
 }
-```
+{% endhighlight %}
 
 [MDN: Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -471,7 +471,7 @@ Promises help you manage asynchronous code and are returned from many DOM APIs
 as well as third party libraries. Async/await syntax is a special syntax for
 dealing with promises. The two go hand-in-hand.
 
-```jsx {71-81}
+{% highlight js %}
 function promises() {
   const successfulPromise = timeout(100).then(result => `success: ${result}`)
 
@@ -567,7 +567,7 @@ function GetGreetingForSubject({subject}) {
     </div>
   ) : null
 }
-```
+{% endhighlight %}
 
 [MDN: Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
