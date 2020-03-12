@@ -575,15 +575,4 @@ function GetGreetingForSubject({subject}) {
 
 [MDN: await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
 
-## Conclusion
-
-There are of course many language features which are useful when building React
-apps, but these are some of my favorites that I find myself using again and
-again. I hope you find this useful.
-
-If you'd like to dive into any of these further, I do have a JavaScript workshop
-which I gave and recorded while I was working at PayPal which you may find
-helpful:
-[ES6 and Beyond Workshop at PayPal](https://www.youtube.com/playlist?list=PLV5CVI1eNcJgUA2ziIML3-7sMbS7utie5)
-
 Good luck!
