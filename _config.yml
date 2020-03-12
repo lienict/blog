@@ -5,7 +5,7 @@ permalink:           pretty
 
 # Setup
 title:               Lien's Blog
-tagline:             'ReactJS, ReactNative, .NET, SQL, GraphQL, Python'
+tagline:             'ReactJS, ReactNative, .NET, SQL, Nodejs, Neo4j'
 description:         'Have a nice day, guys!'
 url:                 http://lanyon.getpoole.com
 baseurl:             '/blog'
