@@ -29,7 +29,7 @@ as possible working with React.
 
 Template literals are like regular strings with super-powers:
 
-```jsx {10}
+{% highlight js %}
 const greeting = 'Hello'
 const subject = 'World'
 console.log(`${greeting} ${subject}!`) // Hello World!
@@ -41,7 +41,7 @@ console.log(greeting + ' ' + subject + '!')
 function Box({className, ...props}) {
   return <div className={`box ${className}`} {...props} />
 }
-```
+{% endhighlight %}
 
 [MDN: Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
