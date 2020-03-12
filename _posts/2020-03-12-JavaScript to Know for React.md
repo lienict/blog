@@ -1,8 +1,8 @@
 ---
 slug: 'javascript-to-know-for-react'
-title: 'Cần chuẩn bị gì để viết React?'
-date: '2020-03-12'
-author: 'dinhtronglien'
+title: 'JavaScript to Know for React'
+date: '2019-08-19'
+author: 'Lien DT'
 description:
   '_What JavaScript features you should be familiar with when learning and using
   React_'
@@ -11,16 +11,21 @@ categories:
 keywords:
   - 'react'
   - 'javascript'
-banner: './images/banner.jpg'
-bannerCredit:
-  'Photo by [Benjamin Voros](https://unsplash.com/photos/phIFdC6lA4E)'
 ---
 
-Việc học các tính năng của Javscript là rất cần thiết cho bạn để xây dựng những ứng dụng React một cách hiệu quả. 
-Vì vậy dưới đây là một vài tính năng Javascript mà tôi khuyên các bạn nên dành thời gian học để bạn có thể 
-làm việc hiệu quả nhất với React. 
+One of the things I love most about React compared to other frameworks that I've
+used is how exposed you are to JavaScript when you're using it. There's no
+template DSL (JSX compiles to sensible JavaScript), the component API has only
+gotten simpler with the addition of [React Hooks](https://reactjs.org/hooks),
+and the framework offers you very little abstraction outside the core UI
+concerns it's intended to solve.
 
-## 1. Template Literals
+Because of this, learning JavaScript features is really advisable for you to be
+effective building applications with React. So here are a few JavaScript
+features I'd recommend you spend some time learning so you can be as effective
+as possible working with React.
+
+## Template Literals
 
 Template literals are like regular strings with super-powers:
 
