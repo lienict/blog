@@ -1,7 +1,7 @@
 ---
 slug: 'javascript-to-know-for-react'
 title: 'JavaScript to Know for React'
-date: '2019-08-19'
+date: '2020-03-11'
 author: 'Lien DT'
 description:
   '_What JavaScript features you should be familiar with when learning and using
